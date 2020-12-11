@@ -1,0 +1,228 @@
+body {
+  font-family: 'Montserrat-Regular', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #184d47;
+}
+
+h2 {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #184d47;
+}
+
+h3 {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 1.5rem;
+  color: #184d47;
+}
+
+.container-fluid {
+  font-family: 'Montserrat-Regular', sans-serif;
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  height: 10em;
+  width: 10em;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+/* Modify the background color
+.navbar-custom {
+  background-color: #8cba51;
+}
+ */
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.navbar-custom {
+  background-color: #96bb7c;
+}
+
+/* Modify brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: #184d47;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.brand-fontfam {
+  font-family: 'Ubuntu-Regular', sans-serif;
+}
+
+.navlnk-fontfam {
+  font-family: 'Montserrat-Light';
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+  color: #184d47;
+  font-size: 1.2rem;
+  font-family: 'Montserrat-Black', sans-serif;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+
+.android-btn-color {
+  background-color: #184d47;
+  border-color: #184d47;
+}
+
+.title-image {
+  width: 80%;
+  right: 20%;
+}
+
+.font-features {
+  font-family: 'Montserrat-Black', sans-serif;
+}
+
+.align-features {
+  text-align: center;
+  padding: 5%;
+}
+
+.fontawe-image {
+  color: #184d47;
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.fontawe-image:hover {
+  color: #96bb7c;
+}
+
+.para-features {
+  font-size: 0.75rem;
+  width: 40%;
+  margin: auto;
+  font-family: 'Montserrat-Light', sans-serif;
+  color: #184d47;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%3D5B43' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%3D5B43' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.btn-free {
+  border-color: #184d47;
+  color: #184d47;
+}
+
+.btn-free:hover {
+  background-color: #96bb7c;
+  border-color: #184d47;
+}
+
+.btn-sign-up {
+  border-color: #184d47;
+  background-color: #184d47;
+}
+
+.btn-sign-up:hover {
+  background-color: #96bb7c;
+  border-color: #184d47;
+}
+
+.pricing-class {
+  padding: 3% 2%;
+}
+
+.para-pricing {
+  color: #184d47;
+  font-family: 'Montserrat-Light', sans-serif;
+}
+
+.tagline {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5 color: #184d47;
+}
+
+.footer-awe {
+  color: #184d47;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+.footer-awe:hover {
+  color: #96bb7c;
+}
+
+.copyright {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 0.5rem;
+  color: #184d47;
+}
+
+@@media (max-width: 625px) {
+  h1 {
+    text-align: center;
+  }
+}
+
+#title {
+  background-color: #96bb7c;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+#features {
+  /* background-color: #d6efc7; */
+  padding: 7% 15%;
+}
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #d6efc7;
+  color: #184d47;
+}
+
+#press {
+  background-color: #d6efc7;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+#cta {
+  background-color: #96bb7c;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+#footer {
+  text-align: center;
+  padding: 7% 15%;
+}
