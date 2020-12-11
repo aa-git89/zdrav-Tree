@@ -180,9 +180,10 @@ h3 {
 }
 
 @media (max-width: 1000px) {
-  #title {
-    text-align: center;
-  }
+  
+  .title-align {
+  text-align: center;
+    }
 }
 
 #title {
