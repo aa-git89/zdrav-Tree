@@ -179,8 +179,8 @@ h3 {
   color: #184d47;
 }
 
-@@media (max-width: 900px) {
-  h1 {
+@media (max-width: 1000px) {
+  #title {
     text-align: center;
   }
 }
