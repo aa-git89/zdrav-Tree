@@ -179,7 +179,7 @@ h3 {
   color: #184d47;
 }
 
-@@media (max-width: 625px) {
+@@media (max-width: 900px) {
   h1 {
     text-align: center;
   }
